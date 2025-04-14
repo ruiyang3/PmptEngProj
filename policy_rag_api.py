@@ -3,13 +3,12 @@ This is the API for the policy RAG.
 It provides all the apis for initialize the policy RAG and get answer of the policy RAG.
 """
 import json
-import os
 
 import chromadb
 
 from policy_rag_utils.ChuckVectorize import chunk_text, generate_questions, vectorize_questions
 from policy_rag_utils.DocProcessing import policy_processing
-from policy_rag_utils.PromptModel import prompt_model
+from PromptModel import prompt_model
 from policy_rag_utils.RetrivePolicy import get_most_relevant_context, rag_prompt_generation
 
 

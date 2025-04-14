@@ -1,6 +1,6 @@
 from tqdm import tqdm
 from policy_rag_utils.DocProcessing import policy_tokenize, token_to_text
-from policy_rag_utils.PromptModel import prompt_model
+from PromptModel import prompt_model
 
 import json, chromadb
 
