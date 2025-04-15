@@ -9,14 +9,10 @@ class SQLAgent:
     def __init__(self, db_path, schema_path):
         self.db_path = db_path
         
-        self.conn = sqlite3.connect(db_path)
         self.schema = open(schema_path, 'r').read()
         
-        secret_key = open('secret-key', 'r').read()
-    
         self.client = OpenAI(organization = 'org-miLxPVrUMo3EKEXwFxGkDoiS',
-                            project = 'proj_oS3d7Rnjgr141tDhCN7hZohr',
-                            api_key=secret_key)
+                            project = 'proj_oS3d7Rnjgr141tDhCN7hZohr')
 
     def prompt_model(self, model, prompt):
         completion = self.client.chat.completions.create(
@@ -30,7 +26,9 @@ class SQLAgent:
         return json.loads(completion.choices[0].message.content)
 
     def execute_query(self, query):
-        cursor = self.conn.cursor()
+        conn = sqlite3.connect(self.db_path)
+
+        cursor = conn.cursor()
         cursor.execute(query)
         result = cursor.fetchall()
         
@@ -42,6 +40,7 @@ class SQLAgent:
             ans.append(list(row))
                 
         cursor.close()
+        conn.close()
         return ans
 
     def get_answer(self, question):

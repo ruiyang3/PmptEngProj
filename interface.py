@@ -1,5 +1,9 @@
 import gradio as gr
 
+from pipeline import PipelineRAG
+
+pipe = PipelineRAG()
+
 with gr.Blocks() as demo:
     gr.Markdown("# Sub-Task Formulator Chatbot")
     gr.Markdown("Enter a complex question, and I will break it down into policy and database sub-questions.")
@@ -9,6 +13,6 @@ with gr.Blocks() as demo:
 
     btn = gr.Button("Decompose Question")
 
-    btn.click(fn=prompt_model, inputs=user_input, outputs=output)
+    btn.click(fn=pipe.run, inputs=user_input, outputs=output)
 
 demo.launch()
