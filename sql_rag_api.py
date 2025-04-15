@@ -2,6 +2,8 @@ from openai import OpenAI
 import json
 import numpy as np
 import copy
+import pprint
+import tabulate
 
 import sqlite3
 
@@ -34,14 +36,14 @@ class SQLAgent:
         
         description = [d[0] for d in cursor.description]
         
-        ans = []
-        ans.append(description)
-        for row in result:
-            ans.append(list(row))
+        # ans = []
+        # ans.append(description)
+        # for row in result:
+        #     ans.append(list(row))
                 
         cursor.close()
         conn.close()
-        return ans
+        return description, result
 
     def get_answer(self, question):
         instruction = f"""
@@ -68,12 +70,13 @@ class SQLAgent:
         query = response['sql']
         
         try:
-            result = self.execute_query(query)
+            description, table = self.execute_query(query)
+            result = tabulate.tabulate(table, headers=description, tablefmt="grid")
         except Exception as e:
             print(f"Error executing query: {e}")
-            return "NA"
+            result = "NA"
 
-        return query, result        
+        return query, str(result)
     
     
     
@@ -83,7 +86,7 @@ if __name__ == "__main__":
     
     sql_agent = SQLAgent(db_path, schema_path)
     
-    question = "What is the name of the employee with ID 1?"
-    result = sql_agent.get_answer(question)
+    question = "Which employees took more than 3 leaves?"
+    query, result = sql_agent.get_answer(question)
     
     print(result)
