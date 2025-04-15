@@ -3,3 +3,6 @@ __pycache__
 */__pycache__/
 test.py
 test_set.json
+policy_rag_assets/chroma_db/*
+policy_rag_assets/chucks.json
+policy_rag_assets/questionList.json
