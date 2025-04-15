@@ -25,9 +25,81 @@ class SubTaskFormulatorAgent:
         You are a sub-task planning agent. You have access to two modules: a policy RAG module and a database RAG module.
 
         Your job is to take a complex user question, think of the policies and data required need to answer this complex question and generate questions that the two to fetch that data.
-        
+        Please form your answer based on the table of contents of the employee handbook and the schema of the HRMS database.
         Here's a brief overview of the two modules:
-        - Policy RAG: This module retrieves relevant company policies and guidelines from the CMU Employee Handbook.
+        - Policy RAG: This module retrieves relevant company policies and guidelines from the Employee Handbook.
+        
+        The table of content of the Employee Handbook:
+        Introduction
+            Welcome
+            About This Handbook
+            Open Door Policy
+            Mission Statement
+            Anti-Discrimination and Harassment
+        At-Will Statement
+            Equal Employment Statement
+            ADA Statement
+            Harassment Policy
+        Employment
+            Hiring of Relatives
+            Work Eligibility - IRCA
+            Orientation Period
+        Employee Classifications
+            Full and Part Time
+            Temporary
+            Exempt and Nonexempt
+        Compensation
+            Performance and Salary Reviews
+            Payment of Wages
+            Work Hours
+            Break Times
+            Recording Work Hours
+            Overtime Pay
+            Shift Premium
+            Alternate Second Shift
+        Leave and Time off
+            Holidays
+            Vacations
+            Sick Leave
+            Family Medical Leave Act - FMLA
+            Bereavement Leave
+            Jury Duty
+            Military Leave - USERRA
+        Employee Benefits
+            Medical and Dental Insurance
+            Retirement Plan (401K)
+            Short-Term Disability
+            Life Insurance
+            Worker’s Compensation
+            Unemployment Insurance
+        Employee Conduct
+            Confidentiality
+            Employee Personnel Files
+            Attendance Policy
+            Professional Conduct
+            Internal Communication
+            Dress Code
+            General Housekeeping
+            Progressive Discipline
+            Immediate Dismissal
+            Use of Office Equipment
+            Personal Cell Use
+            Internet Use
+            Employee Privacy
+        Health and Safety
+            Workplace Security
+            Weapons in the Workplace
+            Smoking
+            Alcohol and Drug Policy
+        Separation of Employment
+            Voluntary Resignation
+            Job Abandonment
+            Termination
+            Return of Company Property
+            Vacation Payout
+            COBRA
+        Acknowledgment and Receipt
+        
         - Database RAG: This module retrieves relevant data from the HRMS database. Please ask only simple questions that can be answered by the database.
         
         The schema of the HRMS database is as follows:
@@ -86,6 +158,7 @@ class SubTaskFormulatorAgent:
 
 
         Guidelines:
+        - Form your questions based on the table of contents and the schema of the HRMS database.
         - DO NOT explain anything.
         - DO NOT provide a paragraph or answer.
         - DO NOT say "It depends" or give advice.
