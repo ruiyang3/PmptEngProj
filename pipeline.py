@@ -9,22 +9,28 @@ class PipelineRAG:
         self.sql_agent = SQLAgent(db_path="./sql_rag_assets/hrms.db", schema_path="./sql_rag_assets/schema.sql")
         self.polict_agent = None
         self.compiler_agent = None
+        
+        # Policy Agent
+        # self.policy_chucks, self.questions_db = policy_rag_init()        
 
     def run(self, query):
-        print("Query : ", query)
-        answer = self.sub_task_formulator.generate_sub_tasks(query)
+        subtasks = self.sub_task_formulator.generate_sub_tasks(query)
         
-        print("Sub Tasks Generated:")
-        i = 0
-        for sub_task in answer["sub-tasks"]:
+        subtasks_w_answers = []
+        subtasks_output = "" 
+        for idx, sub_task in enumerate(subtasks["sub-tasks"]):
+            subtasks_output += f"Sub-task {idx+1} :: {sub_task['module']} :: {sub_task['question']}\n"
             if sub_task['module'] == 'Policy RAG':
-                pass                
+                question = sub_task['question']
+                # answer = policy_rag_answer(question, self.questions_db, self.policy_chucks)
+                sub_task['answer'] = answer
             elif sub_task['module'] == 'Database RAG':
                 question = sub_task['question']
-                sql_answer = self.sql_agent.get_answer(question)
-                sub_task['answer'] = sql_answer
-                print(f"Sub Task {i} : {question} => {sql_answer}")
-            i += 1
-        # answer = self.compiler_agent.compile(query, answer)
+                sql_query, answer = self.sql_agent.get_answer(question)
+                sub_task['answer'] = str(sql_query) + " ---- " + str(answer)
+            
+            subtasks_w_answers.append(sub_task)
+                
+        # compiled_output = self.compiler_agent.compile(query, answer)        
         
-        return "Hello World"
+        return subtasks_output, subtasks_w_answers

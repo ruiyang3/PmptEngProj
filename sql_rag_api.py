@@ -73,7 +73,7 @@ class SQLAgent:
             print(f"Error executing query: {e}")
             return "NA"
 
-        return result        
+        return query, result        
     
     
     
