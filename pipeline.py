@@ -11,7 +11,7 @@ class PipelineRAG:
         self.compiler_agent = None
         
         # Policy Agent
-        # self.policy_chucks, self.questions_db = policy_rag_init()        
+        self.policy_chucks, self.questions_db = policy_rag_init()        
 
     def run(self, query):
         subtasks = self.sub_task_formulator.generate_sub_tasks(query)
@@ -22,7 +22,7 @@ class PipelineRAG:
             subtasks_output += f"Sub-task {idx+1} :: {sub_task['module']} :: {sub_task['question']}\n"
             if sub_task['module'] == 'Policy RAG':
                 question = sub_task['question']
-                # answer = policy_rag_answer(question, self.questions_db, self.policy_chucks)
+                answer = policy_rag_answer(question, self.questions_db, self.policy_chucks)
                 sub_task['answer'] = answer
             elif sub_task['module'] == 'Database RAG':
                 question = sub_task['question']
