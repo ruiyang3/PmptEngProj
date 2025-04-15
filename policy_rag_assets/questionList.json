@@ -1,290 +1,170 @@
 [
     {
-        "question": "When was the most recent revision of the Staff Handbook issued?",
+        "question": "What is the purpose of the Employee Handbook for employees at 5 Point Fabrication, LLC?",
         "index": 0
     },
     {
-        "question": "Who should be contacted regarding questions on policy content in the Staff Handbook?",
+        "question": "How does 5 Point Fabrication, LLC address concerns or grievances employees may have?",
         "index": 0
     },
     {
-        "question": "Which employees are excluded from the applicability of this Staff Handbook?",
+        "question": "What does the At-Will Statement in the Employee Handbook signify for both employees and the company?",
         "index": 0
     },
     {
-        "question": "What are the primary purposes of the Staff Handbook: A Human Resources Guide at Carnegie Mellon?",
+        "question": "What is the purpose of the employee handbook at 5 Point Fabrication, LLC?",
         "index": 1
     },
     {
-        "question": "How does Carnegie Mellon University support diversity and promote equal employment opportunities?",
+        "question": "How should employees report concerns or grievances according to the open door policy?",
         "index": 1
     },
     {
-        "question": "What is the significance of at-will employment as stated in the Staff Handbook?",
+        "question": "What actions may be taken against an employee found in violation of the anti-discrimination and harassment policy?",
         "index": 1
     },
     {
-        "question": "What employment status does Carnegie Mellon University adhere to for faculty and staff?",
+        "question": "What accommodations does 5 Point offer for qualified individuals with disabilities according to the ADA policy?",
         "index": 2
     },
     {
-        "question": "How does Carnegie Mellon promote diversity within its workforce according to its affirmative action policies?",
+        "question": "What constitutes harassment in the workplace according to 5 Point's policy?",
         "index": 2
     },
     {
-        "question": "What are the requirements for employees driving university vehicles in terms of background checks and training?",
+        "question": "What is the significance of the Trial Service Period during the employment process at 5 Point?",
         "index": 2
     },
     {
-        "question": "What are the general responsibilities employees have towards Carnegie Mellon and its community?",
+        "question": "What is the duration of the Trial Service Period at 5 Point and what benefits are available during this period?",
         "index": 3
     },
     {
-        "question": "What is the purpose of the Employment Eligibility Verification (I-9) Policy at Carnegie Mellon?",
+        "question": "How is overtime pay calculated for employees who work more than 40 hours in a week at 5 Point?",
         "index": 3
     },
     {
-        "question": "How does Carnegie Mellon ensure compliance with the Drug and Alcohol Policy for DOT-Covered Employees?",
+        "question": "What are the eligibility criteria for holiday pay benefits at 5 Point for employees?",
         "index": 3
     },
     {
-        "question": "What actions should employees take if they witness a violation of the statutes related to driver’s license maintenance?",
+        "question": "What are the scheduled break times for full-time employees on the first shift?",
         "index": 4
     },
     {
-        "question": "What is the duration of the provisional period for new staff members at Carnegie Mellon, and what evaluations occur during this time?",
+        "question": "How does the holiday pay benefit work for part-time employees at 5 Point?",
         "index": 4
     },
     {
-        "question": "What types of flexible work arrangements are available to staff members at Carnegie Mellon, and what factors must be considered when requesting them?",
+        "question": "What are the requirements for taking vacation time at 5 Point after completing the 60-day trial service period?",
         "index": 4
     },
     {
-        "question": "What is a compressed work schedule and how does it typically function at Carnegie Mellon University?",
+        "question": "What are the options available to employees if a holiday falls during the week and they want to ensure they receive 40 hours of pay for that week?",
         "index": 5
     },
     {
-        "question": "What are the requirements for staff members who wish to work remotely or telecommute at Carnegie Mellon?",
+        "question": "What is the process for employees to request vacation time, and what factors will be considered in approving these requests?",
         "index": 5
     },
     {
-        "question": "What obligations do Carnegie Mellon staff members have regarding the reporting of child abuse or inappropriate interactions with minors?",
+        "question": "How is eligibility determined for employees seeking to take Family and Medical Leave Act (FMLA) leave?",
         "index": 5
     },
     {
-        "question": "What is the purpose of the Preventing Workplace Harassment program offered by the Office of Human Resources at Carnegie Mellon University?",
+        "question": "What are the eligibility requirements for an employee to qualify for family or medical leave under this policy?",
         "index": 6
     },
     {
-        "question": "What procedures are followed for adjudicating alleged Prohibited Conduct against Staff Respondents?",
+        "question": "How is the amount of leave calculated for an employee taking FMLA leave?",
         "index": 6
     },
     {
-        "question": "What obligations do staff members have under the university's Policy on the Protection of Children?",
+        "question": "What procedures must an employee follow to request FMLA leave?",
         "index": 6
     },
     {
-        "question": "What actions may result in disciplinary measures for employees regarding confidentiality violations at Carnegie Mellon?",
+        "question": "What specific information must be included in a request for FMLA leave?",
         "index": 7
     },
     {
-        "question": "How can staff members at Carnegie Mellon update their personal information in Workday?",
+        "question": "What is the policy regarding bereavement leave at 5 Point for employees?",
         "index": 7
     },
     {
-        "question": "What are the eligibility requirements for a staff member to apply for a new role within Carnegie Mellon?",
+        "question": "How does the company handle jury duty for its employees, and what are the expectations if an employee is dismissed from jury duty?",
         "index": 7
     },
     {
-        "question": "What is recommended for staff members before pursuing another internal career opportunity within CMU?",
+        "question": "What steps should an employee take to report an injury under the Worker's Compensation policy at 5 Point?",
         "index": 8
     },
     {
-        "question": "What are the eligibility requirements for staff members to apply for a new role within the university?",
+        "question": "How long must an employee work before they are eligible for health insurance coverage at 5 Point?",
         "index": 8
     },
     {
-        "question": "What should staff members do if they plan to resign from their position at Carnegie Mellon?",
+        "question": "What guidelines affect the dress code for production employees at 5 Point?",
         "index": 8
     },
     {
-        "question": "What is required if a staff member plans to take time off between the end of their current position and the start of a new position?",
+        "question": "What is the expectation for employees regarding attendance and communication if they are going to be absent or late?",
         "index": 9
     },
     {
-        "question": "How should staff members resign from their employment at Carnegie Mellon?",
+        "question": "How does 5 Point define professional conduct among employees and its impact on workplace relations?",
         "index": 9
     },
     {
-        "question": "What factors might influence decisions regarding layoffs at Carnegie Mellon?",
+        "question": "What are the potential consequences for an employee who fails to comply with the dress code policy?",
         "index": 9
     },
     {
-        "question": "What actions are considered violations of Carnegie Mellon's university standards related to misconduct?",
+        "question": "What actions may result in immediate termination according to the company's policies?",
         "index": 10
     },
     {
-        "question": "What factors influence decisions regarding layoffs at Carnegie Mellon University?",
+        "question": "What is the procedure for employees to follow if they encounter unsafe conditions or security risks at work?",
         "index": 10
     },
     {
-        "question": "What benefits do staff members become eligible for based on their scheduled working hours at Carnegie Mellon?",
+        "question": "How is the company's progressive discipline policy structured, and what are the potential consequences for failing to comply with workplace standards?",
         "index": 10
     },
     {
-        "question": "What is the purpose of early collaboration between hiring managers and HR business partners regarding compensation adjustments at Carnegie Mellon?",
+        "question": "What actions should an employee take if they receive a suspicious email or virus threat?",
         "index": 11
     },
     {
-        "question": "How can staff members determine their eligibility for benefits and what are the criteria based on hours worked?",
+        "question": "What is the company's policy regarding weapons in the workplace?",
         "index": 11
     },
     {
-        "question": "What types of retirement savings plans are available for faculty and staff at Carnegie Mellon, and how do contributions work?",
+        "question": "What are the consequences of failing to return company property upon separation from employment?",
         "index": 11
     },
     {
-        "question": "What are the eligibility criteria for participating in Carnegie Mellon University's Faculty and Staff Retirement Plan?",
+        "question": "What circumstances may lead to an employee undergoing alcohol and drug screening according to the company policy?",
         "index": 12
     },
     {
-        "question": "How does the Paid Time Off (PTO) accrual differ for staff members based on their years of service?",
+        "question": "What are the consequences for an employee who fails to cooperate with a request for drug or alcohol testing?",
         "index": 12
     },
     {
-        "question": "What types of expenses can be covered by the Health Care Flexible Spending Account (HCFSA) offered at Carnegie Mellon?",
+        "question": "How does the company handle unused vacation pay upon an employee's voluntary resignation?",
         "index": 12
     },
     {
-        "question": "What determines the amount of Paid Time Off (PTO) earned by Carnegie Mellon staff members?",
+        "question": "What does the Handbook indicate about the nature of employment with the Company?",
         "index": 13
     },
     {
-        "question": "What happens to unused floating holidays at Carnegie Mellon University?",
+        "question": "What rights do both the employee and the Company have regarding the termination of employment?",
         "index": 13
     },
     {
-        "question": "How does the eligibility for Paid Sick Days under the City of Pittsburgh Paid Sick Days Act differ from the university's Paid Time Off policy?",
+        "question": "Who has the authority to make agreements contrary to the at-will employment policy and what is required for such agreements?",
         "index": 13
-    },
-    {
-        "question": "What is the maximum number of Reserve Sick Days (RSDs) that can be accumulated by a staff member at Carnegie Mellon University?",
-        "index": 14
-    },
-    {
-        "question": "Under what conditions can unused Paid Time Off (PTO) days be paid out to a staff member upon separation from employment?",
-        "index": 14
-    },
-    {
-        "question": "What are the eligibility requirements for a staff member to apply for Family and Medical Leave Act (FMLA) leave?",
-        "index": 14
-    },
-    {
-        "question": "What are the eligibility criteria for taking leave under the Family and Medical Leave Act (FMLA) at Carnegie Mellon?",
-        "index": 15
-    },
-    {
-        "question": "How does the paid parental leave policy differ from the paid maternity leave policy at Carnegie Mellon?",
-        "index": 15
-    },
-    {
-        "question": "What steps should an employee take to initiate a Military Leave at Carnegie Mellon?",
-        "index": 15
-    },
-    {
-        "question": "What is the maximum duration of personal leave without pay that Carnegie Mellon offers to eligible staff members?",
-        "index": 16
-    },
-    {
-        "question": "What should employees do before requesting a personal leave of absence?",
-        "index": 16
-    },
-    {
-        "question": "How does Carnegie Mellon handle time off for employees called for jury duty?",
-        "index": 16
-    },
-    {
-        "question": "What are the conditions under which counseling through the EAP may be required for employees?",
-        "index": 17
-    },
-    {
-        "question": "How does the Dependent Care Reimbursement Account (DCRA) help employees with child care expenses?",
-        "index": 17
-    },
-    {
-        "question": "What steps can an employee take if they have a work-related problem that is not resolved after speaking with their supervisor?",
-        "index": 17
-    },
-    {
-        "question": "What is the first step an employee should take when addressing a work-related problem at Carnegie Mellon?",
-        "index": 18
-    },
-    {
-        "question": "In what situations can an employee contact their HR business partner regarding unresolved issues?",
-        "index": 18
-    },
-    {
-        "question": "What are the requirements for staff members to file a formal grievance at Carnegie Mellon?",
-        "index": 18
-    },
-    {
-        "question": "What information must be included in the grievance statement as part of the ELRP process?",
-        "index": 19
-    },
-    {
-        "question": "What steps are involved in the grievance procedure after a staff member submits a grievance?",
-        "index": 19
-    },
-    {
-        "question": "What actions can a supervisor take if a staff member's performance is found to be unsatisfactory?",
-        "index": 19
-    },
-    {
-        "question": "What is the time frame for a grievant to seek further review at the level of the dean or vice president after receiving the Step 2 response?",
-        "index": 20
-    },
-    {
-        "question": "What are some of the possible corrective actions a supervisor can take if a staff member's performance is not satisfactory?",
-        "index": 20
-    },
-    {
-        "question": "How can staff members confidentially report unethical or illegal activities at Carnegie Mellon?",
-        "index": 20
-    },
-    {
-        "question": "What steps must a supervisor take before recommending the involuntary separation of an employee at Carnegie Mellon University?",
-        "index": 21
-    },
-    {
-        "question": "How can members of the Carnegie Mellon community report unethical or illegal activities related to their workplace?",
-        "index": 21
-    },
-    {
-        "question": "What is the purpose of the CMU-Alert emergency notification system?",
-        "index": 21
-    },
-    {
-        "question": "What are the primary goals of the University Emergency Preparedness and Response Plan?",
-        "index": 22
-    },
-    {
-        "question": "How can staff members with diverse abilities request assistance in case of an emergency?",
-        "index": 22
-    },
-    {
-        "question": "What actions should individuals take if they witness or experience threats or acts of violence on campus?",
-        "index": 22
-    },
-    {
-        "question": "What types of sexual misconduct are addressed in the context provided?",
-        "index": 23
-    },
-    {
-        "question": "What should an individual do if they are in an emergency situation related to sexual misconduct at the university?",
-        "index": 23
-    },
-    {
-        "question": "How does Carnegie Mellon implement the Green Dot program to prevent power-based personal violence on campus?",
-        "index": 23
     }
 ]

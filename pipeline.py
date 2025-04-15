@@ -29,10 +29,15 @@ class PipelineRAG:
             elif sub_task['module'] == 'Database RAG':
                 question = sub_task['question']
                 sql_query, answer = self.sql_agent.get_answer(question)
+                print(f"SQL Query: {sql_query}")
                 sub_task['answer'] = str(answer)
             
             subtasks_w_answers.append(sub_task)
-                
-        compiled_output = self.compiler_agent.get_answer(query, subtasks_w_answers)        
+
+        subtasks_str = """"""
+        for subtask in subtasks_w_answers:
+            subtasks_str += f"{subtask['module']} :: {subtask['question']} :: {subtask['answer']}\n"
+
+        compiled_output = self.compiler_agent.get_answer(query, subtasks_str)        
         
-        return subtasks_output, pprint.pformat(subtasks_w_answers), compiled_output
+        return subtasks_output, subtasks_w_answers, compiled_output
